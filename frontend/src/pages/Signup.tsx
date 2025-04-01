@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { signup } from "../services/api";
 
+interface SignupForm {
+  name: string;
+  email: string;
+  password: string;
+}
+
 const Signup: React.FC = () => {
-  const [form, setForm] = useState<{
-    name: string;
-    email: string;
-    password: string;
-  }>({
+  const [form, setForm] = useState<SignupForm>({
     name: "",
     email: "",
     password: "",
