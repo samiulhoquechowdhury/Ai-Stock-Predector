@@ -30,3 +30,66 @@ An AI-powered stock price predictor that provides real-time stock tracking, pred
 ### Machine Learning
 
 - **LSTM (Long Short-Term Memory)** or **ARIMA** for stock price prediction
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/ai-stock-price-predictor.git
+cd ai-stock-price-predictor
+```
+
+### 2. Set up the backend
+
+1. **Navigate to the backend folder:**
+
+   ```bash
+   cd backend
+   ```
+
+2. **Install required dependencies:**
+
+   Run the following command to install all necessary backend dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. **Create a `.env` file:**
+
+   In the backend folder, create a `.env` file and add the following environment variables:
+
+   ```ini
+   JWT_SECRET=your_jwt_secret
+   MONGO_URI=your_mongo_database_uri
+   ```
+
+   - `JWT_SECRET`: Replace with a secret key for JWT authentication.
+   - `MONGO_URI`: Replace with your MongoDB connection URI.
+
+4. **Start the backend server:**
+
+   After setting up the environment variables, start the backend server with:
+
+   ```bash
+   npm start
+   ```
+
+   This will start the backend server on `http://localhost:5000` by default. The backend will now be ready to handle requests.
+
+## Endpoints
+
+### Authentication
+
+- **POST /api/auth/signup**
+
+  **Body:**
+
+  ```json
+  {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "password123"
+  }
+  ```
