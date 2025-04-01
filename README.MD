@@ -123,5 +123,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-- **Author:** Your Name
-- **GitHub:** [github.com/your-username](https://github.com/your-username)
+- **Author:** Samiul Chowdhury
+- **GitHub:** [github.com/your-username](https://github.com/samiulhoquechowdhury)
