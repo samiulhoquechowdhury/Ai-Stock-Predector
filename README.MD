@@ -124,4 +124,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 - **Author:** Samiul Chowdhury
-- **GitHub:** [github.com/your-username](https://github.com/samiulhoquechowdhury)
+- **GitHub:** [github.com/samiulhoquechowdhury](https://github.com/samiulhoquechowdhury)
