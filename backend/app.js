@@ -5,6 +5,7 @@ const dotenv = require("dotenv");
 
 const authRoutes = require("./routes/authRoutes");
 const stockRoutes = require("./routes/stockRoutes");
+const portfolioRoutes = require("./routes/portfolioRoutes");
 
 dotenv.config();
 const app = express();
@@ -12,6 +13,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/api/stocks", stockRoutes);
+app.use("/api/portfolio", portfolioRoutes);
 
 mongoose
   .connect(process.env.MONGO_URI, {
