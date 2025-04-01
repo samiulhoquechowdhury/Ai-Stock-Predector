@@ -4,12 +4,14 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 
 const authRoutes = require("./routes/authRoutes");
+const stockRoutes = require("./routes/stockRoutes");
 
 dotenv.config();
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use("/api/stocks", stockRoutes);
 
 mongoose
   .connect(process.env.MONGO_URI, {
