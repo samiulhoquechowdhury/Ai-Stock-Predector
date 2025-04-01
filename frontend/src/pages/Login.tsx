@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import { login } from "../services/api";
 
+interface LoginForm {
+  email: string;
+  password: string;
+}
+
 interface LoginProps {
   onLogin: (user: any) => void;
 }
 
 const Login: React.FC<LoginProps> = ({ onLogin }) => {
-  const [form, setForm] = useState<{ email: string; password: string }>({
-    email: "",
-    password: "",
-  });
+  const [form, setForm] = useState<LoginForm>({ email: "", password: "" });
 
   const handleLogin = async () => {
     const user = await login(form.email, form.password);
