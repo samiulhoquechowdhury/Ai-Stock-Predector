@@ -93,3 +93,35 @@ cd ai-stock-price-predictor
     "password": "password123"
   }
   ```
+
+## Contributing
+
+1. Fork the repository.
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes (git commit -m 'Add new feature').
+4. Push to the branch (git push origin feature/your-feature).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## Future Enhancements
+
+- **Sentiment Analysis:** Analyze news sentiment to predict stock trends.
+- **Stock Screener:** Users can filter and search for stocks by specific criteria.
+- **Real-Time Stock Alerts:** Send notifications when stock prices hit specific thresholds.
+- **Gamification:** Add leaderboards and community predictions to engage users.
+- **Performance Optimization:** Cache stock data with Redis to improve performance.
+
+---
+
+## Contact
+
+- **Author:** Your Name
+- **GitHub:** [github.com/your-username](https://github.com/your-username)
