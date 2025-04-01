@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.chart-container {
+  @apply w-full max-w-4xl mx-auto p-4 bg-white shadow-lg rounded-lg;
+}
+
+h2 {
+  @apply text-xl font-semibold text-center mb-4 text-gray-800;
+}
