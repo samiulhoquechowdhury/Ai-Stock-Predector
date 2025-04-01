@@ -4,12 +4,20 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 
+interface User {
+  // Define user object structure here
+  // For example:
+  id: string;
+  name: string;
+  email: string;
+}
+
 const App: React.FC = () => {
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<User | null>(null);
 
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100 flex justify-center items-center">
+      <div className="flex min-h-screen flex-col bg-gray-100">
         <Routes>
           <Route
             path="/"
