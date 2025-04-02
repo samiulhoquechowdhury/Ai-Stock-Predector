@@ -37,7 +37,7 @@ An AI-powered stock price predictor that provides real-time stock tracking, pred
 
 ```bash
 git clone https://github.com/samiulhoquechowdhury/Ai-Stock-Predector.git
-cd ai-stock-price-predictor
+cd Ai-Stock-Predector
 ```
 
 ### 2. Set up the backend
